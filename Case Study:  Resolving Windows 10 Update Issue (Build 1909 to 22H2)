@@ -1,0 +1,41 @@
+Abstract
+This case study documents the resolution of an issue encountered while updating Windows 10 from Build 1909 to 22H2 using the Windows 10 Assistant Tool. The user experienced an unknown issue during the installation, resulting in the error message "Undoing changes made to your computer." To avoid a complete OS reinstallation and preserve software and settings, the user successfully resolved the issue by performing a Repair Upgrade using the Windows 10 ISO file with the same build version.
+
+Incident Details
+Date: [2021-2023]
+User: [N/A]
+Current Windows Build: Windows 10, Build 1909 (November 2019 Update)
+Target Windows Build: Windows 10, Build 22H2 (October 2022 Update)
+Incident Description
+On [03.01.2023], the user attempted to update their Windows 10 system from Build 1909 to the latest version, Build 22H2, using the Windows 10 Assistant Tool. The update process progressed until the reboot phase, during which an error occurred, displaying the message "Undoing changes made to your computer." This unexpected issue resulted in the inability to complete the update to the new Windows version.
+
+Analysis and Solution
+[Investigation]:
+The user first investigated the error message to understand the cause of the failed update. The "Undoing changes" message typically indicates that the system encountered an error during the update process and automatically reverted the changes to the previous state.
+
+[Windows 10 Assistant Tool Check]:
+To ensure that the Windows 10 Assistant Tool was not corrupted or causing the issue, the user re-downloaded the tool from the official Microsoft website and attempted the update process again. Unfortunately, the same error occurred during the reboot phase.
+
+[Repair Upgrade Approach]:
+Considering the need to preserve existing software and settings, the user opted for a Repair Upgrade. This involved performing an upgrade installation using the Windows 10 ISO file for the same build version (1909) rather than a full reinstallation.
+
+[Repair Upgrade Procedure]:
+The user used the Windows 10 Media Creation Tool to create a bootable USB drive with the Windows 10 ISO file for Build 1909. They then initiated the Repair Upgrade process, selecting the option to keep files and settings during the upgrade.
+
+[Repair Upgrade Completion]:
+After the Repair Upgrade was completed successfully, the system was now running Windows 10, Build 1909. All previously installed software and settings remained intact.
+
+Results
+By opting for a Repair Upgrade using the Windows 10 ISO file for the same build version (1909), the user effectively resolved the issue that occurred during the update to Build 22H2. The system remained stable, and the user could continue using the existing software and settings without the need for a full OS reinstallation.
+
+Recommendations
+Based on this case study, the following recommendations are provided for users encountering similar Windows 10 update issues:
+
+Backup Data: Always back up critical data and settings before attempting major OS updates to safeguard against potential issues.
+
+Repair Upgrade Consideration: If a Windows 10 update fails and you want to avoid a full OS reinstallation, consider performing a Repair Upgrade using the Windows 10 ISO file for the same build version.
+
+Verify Update Compatibility: Before updating Windows 10, ensure that your system meets the hardware and software requirements for the target build version.
+
+Conclusion
+The successful resolution of the Windows 10 update issue through a Repair Upgrade underscores the importance of maintaining system stability and preserving valuable software and settings. By choosing the appropriate update approach and following recommended precautions, users can effectively navigate Windows 10 updates with minimal disruptions to their computing experience.
