@@ -1,0 +1,77 @@
+Abstract
+This case study explores the process of optimizing the performance and thermals of a Ryzen 9 5900X CPU by leveraging the Precision Boost Overdrive (PBO) feature and undervolting. The user initially faced higher-than-usual temperatures on the new CPU while using the Ryzen Ultimate Performance profile in Windows power settings. By performing undervolting adjustments using the new PBO2 feature called "Curve Optimizer," the user achieved lower temperatures, reduced power consumption, and increased clock speeds without compromising system stability. 
+
+Incident Details
+Date: [19.07.2023]
+CPU: Ryzen 9 5900X
+Incident Description
+The user upgraded to Ryzen 9 5900X CPU but noticed higher temperatures than expected, reaching 50-65°C on idle, despite enabling the Ryzen Ultimate Performance profile in Windows power settings. To address the thermal issues and enhance overall performance, the user explored undervolting the CPU through the newly introduced PBO2 "Curve Optimizer" feature.
+
+Analysis and Solution
+Understanding Undervolting:
+The user researched the benefits of undervolting, which involves shifting the default voltage and frequency curve of the CPU downwards. By enabling negative offsets through PBO2's "Curve Optimizer," the CPU would operate at lower voltages and power while maintaining the same frequency and performance.
+
+Undervolting Instructions
+[1. Accessing BIOS Settings]:
+Reboot your computer and access the BIOS settings by pressing the appropriate key during startup (usually Del, F2, F12, or Esc). The specific key may vary depending on your motherboard manufacturer.
+
+[2. Advanced CPU Settings]:
+Navigate to the Advanced CPU settings in the BIOS menu.
+
+[3. Enable Precision Boost Overdrive (PBO)]:
+Find the option to enable Precision Boost Overdrive (PBO) and select "Advanced" to access additional settings.
+
+[4. Disable PBO Limits]:
+In the PBO settings, set the PBO limits to "Disabled." This action allows the CPU to make adjustments beyond the default power and current limits, enabling better undervolting capabilities.
+
+[5. Enter Curve Optimizer]:
+Locate the Curve Optimizer settings in the BIOS. This is where you will perform the actual undervolting adjustments.
+
+[6. Select Negative Offset]:
+In the Curve Optimizer settings, choose the "Negative" option to indicate that you want to undervolt the CPU.
+
+[7. Adjust Voltage and Frequency Curve]:
+Enter the desired magnitude for adjusting the voltage and frequency curve. Each unit of value represents a specific voltage offset, typically ranging from three to five millivolts. In this case, you may enter a maximum value of 25 (or 30), representing a negative voltage offset between 90 and 150 millivolts.
+
+Stress Testing and Monitoring:
+After applying the undervolting settings, save the changes and exit the BIOS. Proceed to stress test the system using software like Prime95 or AIDA64 to verify stability under heavy workloads. Also, monitor CPU temperatures using tools like HWMonitor or Ryzen Master to observe the impact of voltage adjustments on thermal performance.
+
+Incremental Adjustments:
+If the system remains stable during stress testing, but you want to fine-tune the undervolting settings further, consider making incremental adjustments to the voltage and frequency curve. Document each adjustment and retest stability.
+
+Testing and Stability:
+The user performed rigorous testing to ensure stability and prevent potential instability caused by excessive undervolting. Incremental adjustments were made to find the optimal balance between performance, temperatures, and stability.
+
+Dealing with Unstable Behavior:
+While undervolting, the user encountered issues with black screens and reboots during idle periods due to the CPU's lower power consumption. To resolve this, the user adjusted the C-state in the BIOS to manage power utilization better.
+
+Additional BIOS Settings:
+The user also set the Power Supply Idle Control to "Typical" to prevent vcore from dropping below a certain level, reducing the likelihood of freezing when the system is idle.
+
+Undervolting Benefits and Performance Results
+Undervolting the Ryzen 9 5900X through PBO2's "Curve Optimizer" feature yielded several notable benefits:
+
+Reduced Temperatures: By lowering the voltages at the same clock speeds, the CPU generated less heat, resulting in significantly reduced temperatures. This led to improved thermal performance and stability during both idle and heavy workloads.
+
+Lower Power Consumption: The CPU's undervolting adjustments resulted in reduced power consumption, allowing the system to operate more efficiently and conserving energy.
+
+Increased Clock Speeds: Surprisingly, undervolting unlocked additional headroom for the CPU's performance. During lighter-threaded workloads, the CPU automatically boosted its clock speeds by almost 200 megahertz without increasing power draw or thermals.
+
+Improved Single-Core Performance: In single-core workloads, undervolting allowed the CPU to operate at lower voltages, reducing power draw and resulting in cooler running temperatures.
+
+Optimized Multicore Performance: When loading all cores in demanding tasks like Blender rendering, the CPU maintained similar power and voltage characteristics while benefiting from slightly higher clock speeds, leading to enhanced multicore performance.
+
+Recommendations
+Based on this case study, the following recommendations are provided for users interested in undervolting their Ryzen processors:
+
+Gradual Undervolting: Proceed with undervolting adjustments gradually to find the right balance between performance, temperatures, and stability. Incremental changes are essential for fine-tuning the undervolting settings.
+
+Stress Testing: Perform stress tests and monitor system behavior to ensure that undervolting adjustments do not cause instability or crashes. Comprehensive testing ensures that the CPU remains stable under heavy workloads.
+
+C-State Adjustment: If encountering black screens and reboots during idle periods, consider adjusting the C-state in the BIOS to optimize power utilization and prevent issues with low power draw.
+
+Thermal Management: Ensure that the system's cooling solution is sufficient to handle the thermal demands of undervolting and increased clock speeds. Proper cooling ensures that the CPU operates within safe temperature ranges.
+
+Conclusion
+This case study demonstrates the significant benefits of undervolting a Ryzen 9 5900X CPU using PBO2's "Curve Optimizer" feature. By adjusting the voltage and frequency curve, the user achieved lower temperatures, reduced power consumption, and even slight performance improvements during lighter-threaded workloads. Proper stress testing, incremental adjustments, and careful management of power settings are essential for maintaining system stability while optimizing the CPU's performance and thermals. Users who successfully undervolt their Ryzen processors can experience improved efficiency, lower temperatures, and enhanced overall system performance. 
+Under vaulting a processor whether that's your cpu or your gpu can have huge benefits for your system lower voltage means better power consumption which in turn means better system temperatures and noise levels but when it comes to undervolting a ryzen processor you're not really left with any good options that is until now.
