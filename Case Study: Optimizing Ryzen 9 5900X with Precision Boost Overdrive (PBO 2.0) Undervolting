@@ -1,7 +1,7 @@
 Abstract
 This case study explores the process of optimizing the performance and thermals of a Ryzen 9 5900X CPU by leveraging the Precision Boost Overdrive (PBO) feature and undervolting. The user initially faced higher-than-usual temperatures on the new CPU while using the Ryzen Ultimate Performance profile in Windows power settings. By performing undervolting adjustments using the new PBO2 feature called "Curve Optimizer," the user achieved lower temperatures, reduced power consumption, and increased clock speeds without compromising system stability. 
 
-Incident Details
+Incident Details 
 Date: [19.07.2023]
 CPU: Ryzen 9 5900X
 Incident Description
