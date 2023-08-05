@@ -4,10 +4,10 @@ Abstract
 This case study documents the resolution of missing or corrupted system files on a Windows-based computer using the System File Checker (SFC) tool. The user experienced system instability, application errors, and unexpected crashes, indicating potential issues with critical system files. By employing the SFC tool through the Command Prompt, the user was able to identify and repair the corrupt files, restoring system stability and functionality.
 
 Incident Details
-Date: [Insert Date]
+Date: [N/A]
 Operating System: Windows 10
 Incident Description
-On [Insert Date], the user encountered frequent application crashes, system errors, and unusual behavior on their Windows [Insert Version] computer. As the issues persisted, it became evident that missing or corrupted system files might be the underlying cause. The user initiated a case study to identify and resolve these file-related issues effectively.
+The user encountered frequent application crashes, system errors, and unusual behavior on their Windows [Insert Version] computer. As the issues persisted, it became evident that missing or corrupted system files might be the underlying cause. The user initiated a case study to identify and resolve these file-related issues effectively.
 
 
 Analysis and Solution
