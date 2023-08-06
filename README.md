@@ -5,4 +5,4 @@ This GitHub project is dedicated to providing comprehensive guides and solutions
 
 #OsCrashes #SoftwareBugs #HardwareMalfunctions 
 
-[GitHub Pages](https://github.com/AlexGxtr/try-turning-it-off-and-on-again/tree/New-issues)
+[New Issues branch](https://github.com/AlexGxtr/try-turning-it-off-and-on-again/tree/New-issues)
