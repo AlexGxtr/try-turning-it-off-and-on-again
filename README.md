@@ -3,6 +3,6 @@ The "Case Studies" branch in the "Hardware and Software Debugging Guides" projec
 
 This GitHub project is dedicated to providing comprehensive guides and solutions for hardware and software debugging. Aimed at assisting normal PC users, it offers tested instructions and resources to troubleshoot and resolve issues related to both hardware components and software applications. Whether you're facing system crashes, software bugs, or hardware malfunctions, this project equips users with valuable insights to effectively diagnose and address the problem, ultimately enhancing the stability and reliability of their PC systems.
 
-#OsCrashes #SoftwareBugs #HardwareMalfunctions 
+[#OsCrashes](https://github.com/search?q=os+crashes&type=repositories) [#SoftwareBugs](https://github.com/search?q=os+crashes&type=repositories) [#HardwareMalfunctions](https://github.com/search?q=hardware+Malfunctions&type=repositories)
 
 [New Issues branch](https://github.com/AlexGxtr/try-turning-it-off-and-on-again/tree/New-issues)
