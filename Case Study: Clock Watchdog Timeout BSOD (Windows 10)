@@ -4,7 +4,7 @@ This case study documents a BIOS update vulnerability discovered on the ASUS Pri
 
 Incident Details
 Date: [04.08.2023]
-User: [N/A]
+Operating System: [Windows 10]
 Motherboard Model: ASUS Prime B450m-a
 BIOS Version Before Update: [Insert Previous BIOS Version]
 BIOS Version After Update: 4202; 2023/07/27
